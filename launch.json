@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",  // 当前打开的 Python 文件
+            "console": "integratedTerminal",  // 使用集成终端显示输出
+            "args": ["./29-Sep-2024-1230.gpx"]  // 传入的命令行参数
+        }
+    ]
+}
